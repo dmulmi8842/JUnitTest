@@ -6,7 +6,7 @@ class MathematicalOperationTest {
     MathematicalOperation methodTest = new MathematicalOperation();
     @Test
     void square() {
-        assertEquals(9,methodTest.square(3));
+        assertEquals(4,methodTest.square(2));
     }
 
     @Test
